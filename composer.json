@@ -1,0 +1,14 @@
+{
+    "name": "philibert/portfolio",
+    "description": "Envoie d'email par PHP_Mailer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Philibert\\Portfolio\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
